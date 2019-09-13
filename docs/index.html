@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Topping</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="./quarry.js"></script>
+  <script src="./topping.js"></script>
+  <link rel="shortcut icon" href="./favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="./toppingRelay.css" />
+</head>
+
+<body id="topping-body">
+  <main>
+    <div class="container main-container">
+      <div class="row">
+        <section class="col-3 bg-light bg-dark topping-list">
+          <div class="p-3 mt-2 mb-2 bg-info text-white">Topping</div>
+          <div class="accordion" id="toppings">
+          </div>
+          <footer class="container text-center fixed-bottom fixed-footer">
+            <button id="fill-toppings" type="button" class="btn btn-primary mb-3" onclick="startToppings(event)">
+              Start
+            </button>
+          </footer>
+        </section>
+        <section class="col-9 target-app">
+          <iframe id="target-frame" src="./demo.html" scrolling="yes"></iframe>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script>
+    function startToppings(event) {
+      let target = event.target || event.srcElement;
+      target.style.visibility = 'hidden';
+      start(event);
+    }
+  </script>
+</body>
+
+</html>

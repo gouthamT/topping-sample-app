@@ -1,0 +1,51 @@
+{
+  "_from": "topping",
+  "_id": "topping@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-idhTbsMX3TqBurYpmJShNZSUtN62cO6Sji9LE8s1nLfsT+ryBGUv6ySLyLtGXFQWKW3O/FuZsA38EPE02YZGYQ==",
+  "_location": "/topping",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "topping",
+    "name": "topping",
+    "escapedName": "topping",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/topping/-/topping-1.0.7.tgz",
+  "_shasum": "40a134c7e6299645c57dc5a398704573f3e2ad4a",
+  "_spec": "topping",
+  "_where": "C:\\Projects\\personal\\topping-sample-app",
+  "author": {
+    "name": "Goutham Tupakula"
+  },
+  "bugs": {
+    "url": "https://github.com/gouthamT/Topping/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "topping is a javascript package for writing workflows/walkthroughs/enriched readme.",
+  "homepage": "https://github.com/gouthamT/Topping#readme",
+  "keywords": [
+    "topping",
+    "goutham",
+    "walkthrough",
+    "enriched readme"
+  ],
+  "license": "ISC",
+  "main": "topping.js",
+  "name": "topping",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouthamT/Topping.git"
+  },
+  "scripts": {},
+  "version": "1.0.7"
+}
